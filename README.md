@@ -1,8 +1,8 @@
 # SalesforceSDK-xcframework
 
-## How to generate xcframework
-1. Download SalesforceMobileSDK [project](https://github.com/forcedotcom/SalesforceMobileSDK-iOS/releases) -
-2. Execute the following commands: 
+## How to generate xcframeworks for SalesforceSDK
+1. Download SalesforceMobileSDK [project](https://github.com/forcedotcom/SalesforceMobileSDK-iOS/releases) 
+2. Execute the following commands in terminal: 
 
 ## SalesforceSDKCore
 
