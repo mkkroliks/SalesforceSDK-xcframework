@@ -7,7 +7,7 @@
 ## SalesforceSDKCore
 
 xcodebuild archive \
--workspace SalesforceMobileSDK.xcworkspace \
+-workspace SalesforceMobileSDK.xcworkspace /\
 -scheme SalesforceSDKCore \
 -destination "generic/platform=iOS Simulator" \
 -archivePath "~/archives/SalesforceSDKCore-iOS-Simulator" \
