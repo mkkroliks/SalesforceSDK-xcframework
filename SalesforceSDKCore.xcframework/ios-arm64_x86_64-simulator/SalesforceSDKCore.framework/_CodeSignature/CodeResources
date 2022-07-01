@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		wjL4hBvYBMfIH3vewdx0Amr2UL0=
+		/KGXioiff4fuQMNMjN3WG1ZTZI8=
 		</data>
 		<key>Headers/NSArray+SFAdditions.h</key>
 		<data>
@@ -174,7 +174,7 @@
 		</data>
 		<key>Headers/SFRestAPI.h</key>
 		<data>
-		J3z7FKRCM9OsgSz2m3Y5Ceui+YQ=
+		NtDb+IKLpC1sx6JshYQEApPfzjg=
 		</data>
 		<key>Headers/SFRestRequest.h</key>
 		<data>
@@ -227,6 +227,10 @@
 		<key>Headers/SFSDKBatchResponse.h</key>
 		<data>
 		aLgLeiGDl2jdCqNnmusHoFSLwGg=
+		</data>
+		<key>Headers/SFSDKCollectionResponse.h</key>
+		<data>
+		gOtCCDLaXipYxRgjIjWGiXeTRt8=
 		</data>
 		<key>Headers/SFSDKCompositeRequest.h</key>
 		<data>
@@ -287,6 +291,10 @@
 		<key>Headers/SFSDKOAuth2.h</key>
 		<data>
 		Xuzb8MM3XzmmNCfrfnJRsV+JOL8=
+		</data>
+		<key>Headers/SFSDKPrimingRecordsResponse.h</key>
+		<data>
+		ZH80umuE7v+rYoxGp66kInkt4hY=
 		</data>
 		<key>Headers/SFSDKPushNotificationDecryption.h</key>
 		<data>
@@ -394,15 +402,15 @@
 		</data>
 		<key>Headers/SalesforceSDKConstants.h</key>
 		<data>
-		rHsoabCGbV0lik6yNBI3m/vGcoI=
+		vYsdmw6/dGpMw+vAq5kdAECw+xA=
 		</data>
 		<key>Headers/SalesforceSDKCore-Swift.h</key>
 		<data>
-		OlQqhtrMJSXK5LNm1a2/uiyvtGc=
+		N8E+JOTr6fVNlpF2DOLTlWF90SU=
 		</data>
 		<key>Headers/SalesforceSDKCore.h</key>
 		<data>
-		la+dz/lG/IN9aSUrI9vrU3Nwfj4=
+		UCyDcEng9zE6ThrVdZtobAl5kV8=
 		</data>
 		<key>Headers/SalesforceSDKCoreDefines.h</key>
 		<data>
@@ -430,55 +438,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0Wny/zWDl82vcdgxARf8a7UO948=
+		2/GdlC6uP76sxZtbQcnlIhHPMjg=
 		</data>
 		<key>Modules/SalesforceSDKCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		TeuWq9A2AKingRt/28LVEZaTLUE=
+		44+P/eg+YuWWu9S19MdsO9lHruM=
 		</data>
 		<key>Modules/SalesforceSDKCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		R02vr3pl08ZOPhnOc6uxTqgG4mI=
+		wF6ss0xdn3QAz1QObTP18nykibg=
 		</data>
 		<key>Modules/SalesforceSDKCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+e3csgFLBY8/nS6TtqWctdTeOGE=
-		</data>
-		<key>Modules/SalesforceSDKCore.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		TeuWq9A2AKingRt/28LVEZaTLUE=
-		</data>
-		<key>Modules/SalesforceSDKCore.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		R02vr3pl08ZOPhnOc6uxTqgG4mI=
-		</data>
-		<key>Modules/SalesforceSDKCore.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		+e3csgFLBY8/nS6TtqWctdTeOGE=
+		SR2dnd7eLlLsaaem5Q4sGcaAIyU=
 		</data>
 		<key>Modules/SalesforceSDKCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Isb/G0bO59ezHn2jjuJ3jWGoEyY=
+		zefgVwWzouYreuZYKyo0f4GFFbg=
 		</data>
 		<key>Modules/SalesforceSDKCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		SHEtbn/TByzTC8HnkPJGjvGU2ak=
+		PiVGf4SWKRkvUyGBwkdJo+T4sY4=
 		</data>
 		<key>Modules/SalesforceSDKCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8vVUb8aWqqTZD0+lTsh73fXLq5c=
-		</data>
-		<key>Modules/SalesforceSDKCore.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		Isb/G0bO59ezHn2jjuJ3jWGoEyY=
-		</data>
-		<key>Modules/SalesforceSDKCore.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		SHEtbn/TByzTC8HnkPJGjvGU2ak=
-		</data>
-		<key>Modules/SalesforceSDKCore.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		8vVUb8aWqqTZD0+lTsh73fXLq5c=
+		SZpG2BWFExbzQNYO5fqfVlTKuPU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -520,7 +504,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uQChSfeJ7AEk7C8aXteOTXTVHR8b4H4sTCiFMh4NIAs=
+			Lf4kBhIHkDFhMmnvWwgJfIy4yM/EQ9ZKUNll5SvlW6E=
 			</data>
 		</dict>
 		<key>Headers/NSArray+SFAdditions.h</key>
@@ -814,7 +798,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r7NkDsuF0PvmJgWvpD/NpZqQNLWPJkakknH71playG8=
+			DoDURTft9KTYzWVfmBWOhNiHjGciEKzPLGSLYly9FRA=
 			</data>
 		</dict>
 		<key>Headers/SFRestRequest.h</key>
@@ -906,6 +890,13 @@
 			<key>hash2</key>
 			<data>
 			7sFvopSHVEaJkMkGqnA6PEotAWAIcvxmFV1Tc+J/x14=
+			</data>
+		</dict>
+		<key>Headers/SFSDKCollectionResponse.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jnh6AbFCrPblLcbYz6t3/rXRCnZjFtXV/fyK5IR7J14=
 			</data>
 		</dict>
 		<key>Headers/SFSDKCompositeRequest.h</key>
@@ -1011,6 +1002,13 @@
 			<key>hash2</key>
 			<data>
 			+VrzKjgK3UJL7gdZl+SpGJLa+qYwUUgquu1ch8iLXzg=
+			</data>
+		</dict>
+		<key>Headers/SFSDKPrimingRecordsResponse.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wBdk5BZ5qjT1vo43YWjYpCCj1Q+nvKK3LSiypZgk1Go=
 			</data>
 		</dict>
 		<key>Headers/SFSDKPushNotificationDecryption.h</key>
@@ -1199,21 +1197,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pXGXHJXHYC80xqVGkcP3GRsqh5wDpXauCpk0DLnwhmw=
+			jtnBgQ5epDCxP/lQt6Mc96LFIk3gPrOy6NAoGCInym8=
 			</data>
 		</dict>
 		<key>Headers/SalesforceSDKCore-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZAi5O6mN3EcgjI7eORRFCWLHTrP9EcScfqqvIugd91s=
+			rwV7vMZmyPSAdVwSQx6p6XXKhziPCUtng8hr+r0HsUM=
 			</data>
 		</dict>
 		<key>Headers/SalesforceSDKCore.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cK7I4+Hcc8fq+k4XaWQndebVaxMHHNNaS2pfnuau+ZU=
+			myEsnZUnrSBlfTkZJ3XzhqwLluPCG3aGcPl2649mlDU=
 			</data>
 		</dict>
 		<key>Headers/SalesforceSDKCoreDefines.h</key>
@@ -1262,84 +1260,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MtKO2yNkNNnNNXFD96ef7ooC1VPfT9AZHnvTuNX5yPw=
+			oLgsNJhOeE+tvcHUYkJ5P9uDOoYVHea0CvK8Ekx3Psw=
 			</data>
 		</dict>
 		<key>Modules/SalesforceSDKCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r4CeebtY2tvyHVfydqVfrJSXhQBY8fAlVSx1bAK1zlU=
+			bomIshpI+9XPaX69sESE0ZlCzbClYTJzfCtcAn76uow=
 			</data>
 		</dict>
 		<key>Modules/SalesforceSDKCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e5kiSxcQLx6LHeRTNVsJD4E6o81YMLV+RfB0ciRYmw0=
-			</data>
-		</dict>
-		<key>Modules/SalesforceSDKCore.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MtKO2yNkNNnNNXFD96ef7ooC1VPfT9AZHnvTuNX5yPw=
-			</data>
-		</dict>
-		<key>Modules/SalesforceSDKCore.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			r4CeebtY2tvyHVfydqVfrJSXhQBY8fAlVSx1bAK1zlU=
-			</data>
-		</dict>
-		<key>Modules/SalesforceSDKCore.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			e5kiSxcQLx6LHeRTNVsJD4E6o81YMLV+RfB0ciRYmw0=
+			OTZnhx3c1LjWjiijJkuEnt+sxQiMvBnka1a0K10BV2s=
 			</data>
 		</dict>
 		<key>Modules/SalesforceSDKCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nlM6sPUV95Tnpoaf5tg4EePXZ3QQvuYnjgLo5ELh4bQ=
+			PJpeqWXFX74XecEz2WeRhwxxLKjPN5gO7A+msg7iG90=
 			</data>
 		</dict>
 		<key>Modules/SalesforceSDKCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b91ymzebPZ95UB3mvjohskBQeF+orS7Akr07BeSis7c=
+			wCamvstnJyGE+ZVVpmZG8Ku5pirs6C6zaQlVj6qvXpI=
 			</data>
 		</dict>
 		<key>Modules/SalesforceSDKCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ei9J7ATJIX1fHWD3ESRL2gL9bSIrCxOAVy0G6w1vhOE=
-			</data>
-		</dict>
-		<key>Modules/SalesforceSDKCore.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nlM6sPUV95Tnpoaf5tg4EePXZ3QQvuYnjgLo5ELh4bQ=
-			</data>
-		</dict>
-		<key>Modules/SalesforceSDKCore.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			b91ymzebPZ95UB3mvjohskBQeF+orS7Akr07BeSis7c=
-			</data>
-		</dict>
-		<key>Modules/SalesforceSDKCore.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ei9J7ATJIX1fHWD3ESRL2gL9bSIrCxOAVy0G6w1vhOE=
+			v6v0iNpa4ln1dBYNvFk9MdydTLfrdWqchnFBfnXoTE8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -61,7 +61,9 @@
 
 #define __SALESFORCE_SDK_10_0_0 100000
 
-#define SALESFORCE_SDK_VERSION_MIN_REQUIRED __SALESFORCE_SDK_10_0_0
+#define __SALESFORCE_SDK_10_1_0 100100
+
+#define SALESFORCE_SDK_VERSION_MIN_REQUIRED __SALESFORCE_SDK_10_1_0
 
 #define SALESFORCE_SDK_VERSION [NSString stringWithFormat:@"%d.%d.%d%@",              \
                                 (SALESFORCE_SDK_VERSION_MIN_REQUIRED / 10000),        \
