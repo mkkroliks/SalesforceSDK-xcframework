@@ -6,6 +6,6 @@ framework module SalesforceSDKCommon {
 }
 
 module SalesforceSDKCommon.Swift {
-    header "SalesforceSDKCommon-Swift.h"
-    requires objc
+  header "SalesforceSDKCommon-Swift.h"
+  requires objc
 }

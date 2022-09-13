@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SalesforceSDKCore
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
 import CryptoKit
 import Foundation
@@ -11,6 +12,7 @@ import Swift
 import SwiftUI
 import UIKit
 import _Concurrency
+import _StringProcessing
 @_inheritsConvenienceInitializers @objc(SFSDKKeyValueEncryptedFileStoreViewController) public class KeyValueEncryptedFileStoreViewController : ObjectiveC.NSObject {
   @objc public func createUI() -> UIKit.UIViewController
   @objc override dynamic public init()
@@ -191,7 +193,9 @@ public typealias ScreenLockCallbackBlock = () -> Swift.Void
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(SFScreenLockManager) public class ScreenLockManager : ObjectiveC.NSObject {
   @objc public static let shared: SalesforceSDKCore.ScreenLockManager
   @objc public func handleAppForeground()
+  @available(*, deprecated, renamed: "storeMobilePolicy(userAccount:hasMobilePolicy:lockTimeout:)")
   @objc public func storeMobilePolicy(userAccount: SalesforceSDKCore.UserAccount, hasMobilePolicy: Swift.Bool)
+  @objc public func storeMobilePolicy(userAccount: SalesforceSDKCore.UserAccount, hasMobilePolicy: Swift.Bool, lockTimeout: Swift.Int32)
   @objc public func setCallbackBlock(screenLockCallbackBlock: @escaping SalesforceSDKCore.ScreenLockCallbackBlock)
   @objc public func checkForScreenLockUsers()
   @objc public func upgradePasscode()
