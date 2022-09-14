@@ -23,7 +23,8 @@ xcodebuild archive \
 -destination "generic/platform=iOS" \
 -archivePath "~/archives/SalesforceSDKCore-iOS" \
 SKIP_INSTALL=NO \
-BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+BUILD_LIBRARY_FOR_DISTRIBUTION=YES \
+ENABLE_BITCODE=YES
 ```
 
 ```
@@ -54,7 +55,8 @@ xcodebuild archive \
 -destination "generic/platform=iOS" \
 -archivePath "~/archives/SalesforceSDKCommon-iOS" \
 SKIP_INSTALL=NO \
-BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+BUILD_LIBRARY_FOR_DISTRIBUTION=YES \
+ENABLE_BITCODE=YES
 ```
 
 ```
@@ -85,7 +87,8 @@ xcodebuild archive \
 -destination "generic/platform=iOS" \
 -archivePath "~/archives/SalesforceAnalytics-iOS" \
 SKIP_INSTALL=NO \
-BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+BUILD_LIBRARY_FOR_DISTRIBUTION=YES \
+ENABLE_BITCODE=YES
 ```
 
 ```
