@@ -9746,189 +9746,189 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/ScreenLock\/ScreenLockUIView.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/ScreenLock\/ScreenLockUIView.swift",
       "kind": "BooleanLiteral",
       "offset": 1876,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/ScreenLock\/ScreenLockUIView.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/ScreenLock\/ScreenLockUIView.swift",
       "kind": "BooleanLiteral",
       "offset": 1925,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/ScreenLock\/ScreenLockUIView.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/ScreenLock\/ScreenLockUIView.swift",
       "kind": "StringLiteral",
       "offset": 1966,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Extensions\/RestClient.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Extensions\/RestClient.swift",
       "kind": "StringLiteral",
       "offset": 2048,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStore.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStore.swift",
       "kind": "IntegerLiteral",
       "offset": 2107,
       "length": 2,
       "value": "96"
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStore.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStore.swift",
       "kind": "StringLiteral",
       "offset": 2484,
       "length": 3,
       "value": "\"2\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStore.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStore.swift",
       "kind": "StringLiteral",
       "offset": 2534,
       "length": 9,
       "value": "\"version\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStore.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStore.swift",
       "kind": "StringLiteral",
       "offset": 2596,
       "length": 15,
       "value": "\"gcmEncryption\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStore.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStore.swift",
       "kind": "StringLiteral",
       "offset": 2661,
       "length": 18,
       "value": "\"key_value_stores\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStore.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStore.swift",
       "kind": "StringLiteral",
       "offset": 2724,
       "length": 45,
       "value": "\"com.salesforce.keyValueStores.encryptionKey\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStore.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStore.swift",
       "kind": "StringLiteral",
       "offset": 1870,
       "length": 26,
       "value": "\"SalesforceSDKCore.KeyValueEncryptedFileStore\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStoreInspector.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStoreInspector.swift",
       "kind": "StringLiteral",
       "offset": 1765,
       "length": 11,
       "value": "\" (global)\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStoreInspector.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStoreInspector.swift",
       "kind": "IntegerLiteral",
       "offset": 1897,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStoreInspector.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStoreInspector.swift",
       "kind": "StringLiteral",
       "offset": 1936,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStoreInspector.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStoreInspector.swift",
       "kind": "Array",
       "offset": 1993,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStoreInspector.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Storage\/KeyValueEncryptedFileStoreInspector.swift",
       "kind": "BooleanLiteral",
       "offset": 2044,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/Encryptor.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/Encryptor.swift",
       "kind": "StringLiteral",
       "offset": 6271,
       "length": 25,
       "value": "\"com.salesforce.keystore\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/Encryptor.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/Encryptor.swift",
       "kind": "StringLiteral",
       "offset": 6329,
       "length": 12,
       "value": "\"defaultKey\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/Encryptor.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/Encryptor.swift",
       "kind": "StringLiteral",
       "offset": 6380,
       "length": 29,
       "value": "\"com.salesforce.eckey.public\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/Encryptor.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/Encryptor.swift",
       "kind": "StringLiteral",
       "offset": 6449,
       "length": 30,
       "value": "\"com.salesforce.eckey.private\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/Encryptor.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/Encryptor.swift",
       "kind": "StringLiteral",
       "offset": 14855,
       "length": 66,
       "value": "\"com.salesforce.mobilesdk.readWriteQueue\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/Encryptor.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/Encryptor.swift",
       "kind": "IntegerLiteral",
       "offset": 14916,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/Encryptor.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/Encryptor.swift",
       "kind": "StringLiteral",
       "offset": 14920,
       "length": 93,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/EncryptStream.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/EncryptStream.swift",
       "kind": "IntegerLiteral",
       "offset": 1791,
       "length": 3,
       "value": "512"
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/EncryptStream.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/EncryptStream.swift",
       "kind": "IntegerLiteral",
       "offset": 1838,
       "length": 2,
       "value": "28"
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/ScreenLock\/ScreenLockManager.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/ScreenLock\/ScreenLockManager.swift",
       "kind": "StringLiteral",
       "offset": 2036,
       "length": 36,
       "value": "\"com.salesforce.security.screenlock\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/ScreenLock\/ScreenLockManager.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCore\/SalesforceSDKCore\/Classes\/Security\/ScreenLock\/ScreenLockManager.swift",
       "kind": "IntegerLiteral",
       "offset": 2181,
       "length": 1,

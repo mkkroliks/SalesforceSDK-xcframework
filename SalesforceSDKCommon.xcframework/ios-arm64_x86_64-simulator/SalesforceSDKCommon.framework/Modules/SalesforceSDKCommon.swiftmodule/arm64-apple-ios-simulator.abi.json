@@ -16,6 +16,482 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "KeychainHelper",
+        "printedName": "KeychainHelper",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "accessibilityAttribute",
+            "printedName": "accessibilityAttribute",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreFoundation.CFString?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CFString",
+                    "printedName": "CoreFoundation.CFString",
+                    "usr": "c:@T@CFStringRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper(cpy)accessibilityAttribute",
+            "mangledName": "$s19SalesforceSDKCommon14KeychainHelperC22accessibilityAttributeSo11CFStringRefaSgvpZ",
+            "moduleName": "SalesforceSDKCommon",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreFoundation.CFString?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CFString",
+                        "printedName": "CoreFoundation.CFString",
+                        "usr": "c:@T@CFStringRef"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper(cm)accessibilityAttribute",
+                "mangledName": "$s19SalesforceSDKCommon14KeychainHelperC22accessibilityAttributeSo11CFStringRefaSgvgZ",
+                "moduleName": "SalesforceSDKCommon",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "read",
+            "printedName": "read(service:account:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeychainResult",
+                "printedName": "SalesforceSDKCommon.KeychainResult",
+                "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper(cm)readWithService:account:",
+            "mangledName": "$s19SalesforceSDKCommon14KeychainHelperC4read7service7accountAA0C6ResultCSS_SSSgtFZ",
+            "moduleName": "SalesforceSDKCommon",
+            "static": true,
+            "objc_name": "readWithService:account:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createIfNotPresent",
+            "printedName": "createIfNotPresent(service:account:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeychainResult",
+                "printedName": "SalesforceSDKCommon.KeychainResult",
+                "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper(cm)createIfNotPresentWithService:account:",
+            "mangledName": "$s19SalesforceSDKCommon14KeychainHelperC18createIfNotPresent7service7accountAA0C6ResultCSS_SSSgtFZ",
+            "moduleName": "SalesforceSDKCommon",
+            "static": true,
+            "objc_name": "createIfNotPresentWithService:account:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "write",
+            "printedName": "write(service:data:account:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeychainResult",
+                "printedName": "SalesforceSDKCommon.KeychainResult",
+                "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper(cm)writeWithService:data:account:",
+            "mangledName": "$s19SalesforceSDKCommon14KeychainHelperC5write7service4data7accountAA0C6ResultCSS_10Foundation4DataVSSSgtFZ",
+            "moduleName": "SalesforceSDKCommon",
+            "static": true,
+            "objc_name": "writeWithService:data:account:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset(service:account:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeychainResult",
+                "printedName": "SalesforceSDKCommon.KeychainResult",
+                "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper(cm)resetWithService:account:",
+            "mangledName": "$s19SalesforceSDKCommon14KeychainHelperC5reset7service7accountAA0C6ResultCSS_SSSgtFZ",
+            "moduleName": "SalesforceSDKCommon",
+            "static": true,
+            "objc_name": "resetWithService:account:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(service:account:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeychainResult",
+                "printedName": "SalesforceSDKCommon.KeychainResult",
+                "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper(cm)removeWithService:account:",
+            "mangledName": "$s19SalesforceSDKCommon14KeychainHelperC6remove7service7accountAA0C6ResultCSS_SSSgtFZ",
+            "moduleName": "SalesforceSDKCommon",
+            "static": true,
+            "objc_name": "removeWithService:account:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAll",
+            "printedName": "removeAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeychainResult",
+                "printedName": "SalesforceSDKCommon.KeychainResult",
+                "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainResult"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper(cm)removeAll",
+            "mangledName": "$s19SalesforceSDKCommon14KeychainHelperC9removeAllAA0C6ResultCyFZ",
+            "moduleName": "SalesforceSDKCommon",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAccessibleAttribute",
+            "printedName": "setAccessibleAttribute(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeychainResult",
+                "printedName": "SalesforceSDKCommon.KeychainResult",
+                "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KeychainItemAccessibility",
+                "printedName": "SalesforceSDKCommon.KeychainItemAccessibility",
+                "usr": "c:@M@SalesforceSDKCommon@E@KeychainItemAccessibility"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper(cm)setAccessibleAttribute:",
+            "mangledName": "$s19SalesforceSDKCommon14KeychainHelperC22setAccessibleAttributeyAA0C6ResultCAA0C17ItemAccessibilityOFZ",
+            "moduleName": "SalesforceSDKCommon",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearCaches",
+            "printedName": "clearCaches()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper(cm)clearCaches",
+            "mangledName": "$s19SalesforceSDKCommon14KeychainHelperC11clearCachesyyFZ",
+            "moduleName": "SalesforceSDKCommon",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeychainHelper",
+                "printedName": "SalesforceSDKCommon.KeychainHelper",
+                "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper(im)init",
+            "mangledName": "$s19SalesforceSDKCommon14KeychainHelperCACycfc",
+            "moduleName": "SalesforceSDKCommon",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper",
+        "mangledName": "$s19SalesforceSDKCommon14KeychainHelperC",
+        "moduleName": "SalesforceSDKCommon",
+        "objc_name": "SFSDKKeychainHelper",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "KeychainResult",
         "printedName": "KeychainResult",
         "children": [
@@ -677,479 +1153,23 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "KeychainHelper",
-        "printedName": "KeychainHelper",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "accessibilityAttribute",
-            "printedName": "accessibilityAttribute",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "CoreFoundation.CFString?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CFString",
-                    "printedName": "CoreFoundation.CFString",
-                    "usr": "c:@T@CFStringRef"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper(cpy)accessibilityAttribute",
-            "mangledName": "$s19SalesforceSDKCommon14KeychainHelperC22accessibilityAttributeSo11CFStringRefaSgvpZ",
-            "moduleName": "SalesforceSDKCommon",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "SetterAccess",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "CoreFoundation.CFString?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CFString",
-                        "printedName": "CoreFoundation.CFString",
-                        "usr": "c:@T@CFStringRef"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper(cm)accessibilityAttribute",
-                "mangledName": "$s19SalesforceSDKCommon14KeychainHelperC22accessibilityAttributeSo11CFStringRefaSgvgZ",
-                "moduleName": "SalesforceSDKCommon",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "read",
-            "printedName": "read(service:account:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "KeychainResult",
-                "printedName": "SalesforceSDKCommon.KeychainResult",
-                "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainResult"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper(cm)readWithService:account:",
-            "mangledName": "$s19SalesforceSDKCommon14KeychainHelperC4read7service7accountAA0C6ResultCSS_SSSgtFZ",
-            "moduleName": "SalesforceSDKCommon",
-            "static": true,
-            "objc_name": "readWithService:account:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "createIfNotPresent",
-            "printedName": "createIfNotPresent(service:account:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "KeychainResult",
-                "printedName": "SalesforceSDKCommon.KeychainResult",
-                "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainResult"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper(cm)createIfNotPresentWithService:account:",
-            "mangledName": "$s19SalesforceSDKCommon14KeychainHelperC18createIfNotPresent7service7accountAA0C6ResultCSS_SSSgtFZ",
-            "moduleName": "SalesforceSDKCommon",
-            "static": true,
-            "objc_name": "createIfNotPresentWithService:account:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "write",
-            "printedName": "write(service:data:account:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "KeychainResult",
-                "printedName": "SalesforceSDKCommon.KeychainResult",
-                "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainResult"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper(cm)writeWithService:data:account:",
-            "mangledName": "$s19SalesforceSDKCommon14KeychainHelperC5write7service4data7accountAA0C6ResultCSS_10Foundation4DataVSSSgtFZ",
-            "moduleName": "SalesforceSDKCommon",
-            "static": true,
-            "objc_name": "writeWithService:data:account:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "reset",
-            "printedName": "reset(service:account:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "KeychainResult",
-                "printedName": "SalesforceSDKCommon.KeychainResult",
-                "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainResult"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper(cm)resetWithService:account:",
-            "mangledName": "$s19SalesforceSDKCommon14KeychainHelperC5reset7service7accountAA0C6ResultCSS_SSSgtFZ",
-            "moduleName": "SalesforceSDKCommon",
-            "static": true,
-            "objc_name": "resetWithService:account:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "remove",
-            "printedName": "remove(service:account:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "KeychainResult",
-                "printedName": "SalesforceSDKCommon.KeychainResult",
-                "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainResult"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper(cm)removeWithService:account:",
-            "mangledName": "$s19SalesforceSDKCommon14KeychainHelperC6remove7service7accountAA0C6ResultCSS_SSSgtFZ",
-            "moduleName": "SalesforceSDKCommon",
-            "static": true,
-            "objc_name": "removeWithService:account:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "removeAll",
-            "printedName": "removeAll()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "KeychainResult",
-                "printedName": "SalesforceSDKCommon.KeychainResult",
-                "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainResult"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper(cm)removeAll",
-            "mangledName": "$s19SalesforceSDKCommon14KeychainHelperC9removeAllAA0C6ResultCyFZ",
-            "moduleName": "SalesforceSDKCommon",
-            "static": true,
-            "declAttributes": [
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setAccessibleAttribute",
-            "printedName": "setAccessibleAttribute(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "KeychainResult",
-                "printedName": "SalesforceSDKCommon.KeychainResult",
-                "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainResult"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "KeychainItemAccessibility",
-                "printedName": "SalesforceSDKCommon.KeychainItemAccessibility",
-                "usr": "c:@M@SalesforceSDKCommon@E@KeychainItemAccessibility"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper(cm)setAccessibleAttribute:",
-            "mangledName": "$s19SalesforceSDKCommon14KeychainHelperC22setAccessibleAttributeyAA0C6ResultCAA0C17ItemAccessibilityOFZ",
-            "moduleName": "SalesforceSDKCommon",
-            "static": true,
-            "declAttributes": [
-              "AccessControl",
-              "DiscardableResult",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "clearCaches",
-            "printedName": "clearCaches()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper(cm)clearCaches",
-            "mangledName": "$s19SalesforceSDKCommon14KeychainHelperC11clearCachesyyFZ",
-            "moduleName": "SalesforceSDKCommon",
-            "static": true,
-            "declAttributes": [
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "KeychainHelper",
-                "printedName": "SalesforceSDKCommon.KeychainHelper",
-                "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper(im)init",
-            "mangledName": "$s19SalesforceSDKCommon14KeychainHelperCACycfc",
-            "moduleName": "SalesforceSDKCommon",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@SalesforceSDKCommon@objc(cs)SFSDKKeychainHelper",
-        "mangledName": "$s19SalesforceSDKCommon14KeychainHelperC",
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "SalesforceSDKCommon",
-        "objc_name": "SFSDKKeychainHelper",
         "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SalesforceSDKCommon",
+        "declAttributes": [
+          "RawDocComment"
         ]
       }
     ],
@@ -1157,179 +1177,179 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainHelper.swift",
       "kind": "StringLiteral",
-      "offset": 2618,
-      "length": 43,
-      "value": "\"com.salesforce.security.keychainException\""
-    },
-    {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2683,
-      "length": 26,
-      "value": "\"com.salesforce.mobilesdk\""
-    },
-    {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2497,
-      "length": 19,
-      "value": "\"SalesforceSDKCommon.KeychainItemManager\""
-    },
-    {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
-      "kind": "StringLiteral",
-      "offset": 8571,
-      "length": 14,
-      "value": "\"SalesforceSDKCommon.KeychainResult\""
-    },
-    {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9240,
-      "length": 26,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9276,
-      "length": 16,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9302,
-      "length": 30,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9342,
-      "length": 29,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9240,
-      "length": 26,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9276,
-      "length": 16,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9302,
-      "length": 30,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9342,
-      "length": 29,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
-      "kind": "StringLiteral",
-      "offset": 20331,
+      "offset": 11982,
       "length": 66,
       "value": "\"com.salesforce.mobilesdk.readWriteQueue\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 20392,
+      "offset": 12043,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainHelper.swift",
       "kind": "StringLiteral",
-      "offset": 20396,
+      "offset": 12047,
       "length": 93,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainHelper.swift",
       "kind": "StringLiteral",
-      "offset": 23459,
+      "offset": 15110,
       "length": 35,
       "value": "\"com.salesforce.security.baseappid\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainHelper.swift",
       "kind": "StringLiteral",
-      "offset": 23522,
+      "offset": 15173,
       "length": 34,
       "value": "\"com.salesforce.security.passcode\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainHelper.swift",
       "kind": "StringLiteral",
-      "offset": 23585,
+      "offset": 15236,
       "length": 28,
       "value": "\"com.salesforce.security.IV\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainHelper.swift",
       "kind": "StringLiteral",
-      "offset": 23691,
+      "offset": 15342,
       "length": 39,
       "value": "\"com.salesforce.security.baseappid.sim\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainHelper.swift",
       "kind": "StringLiteral",
-      "offset": 23759,
+      "offset": 15410,
       "length": 29,
       "value": "\"com.salesforce.oauth.access\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainHelper.swift",
       "kind": "StringLiteral",
-      "offset": 23817,
+      "offset": 15468,
       "length": 30,
       "value": "\"com.salesforce.oauth.refresh\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainHelper.swift",
       "kind": "StringLiteral",
-      "offset": 23876,
+      "offset": 15527,
       "length": 37,
       "value": "\"com.salesforce.security.lockoutTime\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainHelper.swift",
       "kind": "StringLiteral",
-      "offset": 23942,
+      "offset": 15593,
       "length": 34,
       "value": "\"com.salesforce.security.isLocked\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainHelper.swift",
       "kind": "StringLiteral",
-      "offset": 24005,
+      "offset": 15656,
       "length": 48,
       "value": "\"com.salesforce.security.passcode.pbkdf2.verify\""
     },
     {
-      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.1.1\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainManager.swift",
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainHelper.swift",
       "kind": "Array",
-      "offset": 24081,
+      "offset": 15732,
       "length": 124,
       "value": "[\"com.salesforce.keystore.generatedKeystoreKeychainId\", \"com.salesforce.keystore.generatedKeystoreEncryptionKeyId\"]"
+    },
+    {
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 20218,
+      "length": 14,
+      "value": "\"SalesforceSDKCommon.KeychainResult\""
+    },
+    {
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20886,
+      "length": 26,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20922,
+      "length": 16,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20948,
+      "length": 30,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20988,
+      "length": 29,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20886,
+      "length": 26,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20922,
+      "length": 16,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20948,
+      "length": 30,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20988,
+      "length": 29,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainItemManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1872,
+      "length": 43,
+      "value": "\"com.salesforce.security.keychainException\""
+    },
+    {
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainItemManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1937,
+      "length": 26,
+      "value": "\"com.salesforce.mobilesdk\""
+    },
+    {
+      "filePath": "\/Users\/maciej.krolikowski\/Downloads\/SalesforceMobileSDK-iOS-10.2.0\/libs\/SalesforceSDKCommon\/SalesforceSDKCommon\/Classes\/Keychain\/KeychainItemManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1751,
+      "length": 19,
+      "value": "\"SalesforceSDKCommon.KeychainItemManager\""
     }
   ]
 }
